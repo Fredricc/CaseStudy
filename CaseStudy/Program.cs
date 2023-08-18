@@ -18,11 +18,11 @@ namespace CaseStudy
             {
                 if (empId >= 1 && empId <= 1000)
                 {
-                    Console.WriteLine("Okay");
+                    Console.WriteLine("Okay.");
                 }
                 else
                 {
-                    Console.WriteLine("Id should be between 1 - 1000");
+                    Console.WriteLine("Id should be between 1 - 1000.");
                     goto IDInput;
                 }
             }
@@ -40,7 +40,7 @@ namespace CaseStudy
                 }
                 else
                 {
-                    Console.WriteLine("Name should not be empty or a number");
+                    Console.WriteLine("Name should not be empty or a number.");
                     goto nameInput;
                 }
             }
@@ -62,7 +62,7 @@ namespace CaseStudy
                     }
                     else
                     {
-                        Console.WriteLine("Salary should be between 20000 - 300000");
+                        Console.WriteLine("Salary should be between 20000 - 300000.");
                         goto SalaryInput;
                     }
                 }
@@ -82,7 +82,7 @@ namespace CaseStudy
                 }
                 else
                 {
-                    Console.WriteLine("Designation should not be empty or a number");
+                    Console.WriteLine("Designation should not be empty or a number.");
                     goto DesignationInput;
                 }
             }
