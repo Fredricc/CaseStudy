@@ -88,7 +88,7 @@ namespace CaseStudy
             }
             catch {  };
 
-            //Date validation
+            //Employment Date validation
             DateInput:
             Console.WriteLine("Enter Employee Date Of Joining:");
             string dateOfJoining = Console.ReadLine();
