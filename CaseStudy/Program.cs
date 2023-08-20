@@ -90,7 +90,7 @@ namespace CaseStudy
 
             //Employment Date validation
             DateInput:
-            Console.WriteLine("Enter Employee Date Of Joining:");
+            Console.WriteLine("Enter Employee's Date Of Joining:");
             string dateOfJoining = Console.ReadLine();
             if (!string.IsNullOrEmpty(dateOfJoining))
             {
