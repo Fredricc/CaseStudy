@@ -82,7 +82,7 @@ namespace CaseStudy
                 }
                 else
                 {
-                    Console.WriteLine("Designation should not be empty or a number.");
+                    Console.WriteLine("Designation shouldn't be empty or a number.");
                     goto DesignationInput;
                 }
             }
