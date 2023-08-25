@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseStudy", "CaseStudy\CaseStudy.csproj", "{9F7F8343-FBC0-45DA-8267-D548673CE54D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaseStudy", "CaseStudy\CaseStudy.csproj", "{9F7F8343-FBC0-45DA-8267-D548673CE54D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employee", "Employee\Employee.csproj", "{70A1E0F4-65D0-426D-97B7-659344F4BF77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employee", "Employee\Employee.csproj", "{70A1E0F4-65D0-426D-97B7-659344F4BF77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{70DEB55C-9CE9-4AF9-B926-1F4AE1316135}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{70DEB55C-9CE9-4AF9-B926-1F4AE1316135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{39A95926-99A5-49C8-93A7-09F7294D6614}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{70DEB55C-9CE9-4AF9-B926-1F4AE1316135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70DEB55C-9CE9-4AF9-B926-1F4AE1316135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70DEB55C-9CE9-4AF9-B926-1F4AE1316135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A95926-99A5-49C8-93A7-09F7294D6614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A95926-99A5-49C8-93A7-09F7294D6614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A95926-99A5-49C8-93A7-09F7294D6614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A95926-99A5-49C8-93A7-09F7294D6614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
