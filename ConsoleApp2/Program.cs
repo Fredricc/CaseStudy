@@ -98,18 +98,10 @@ namespace ConsoleApp2
             //        total += 2;
             //    }
 
-            int number = -5;
-
-            if (number >= 0)
+            for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine("Zero or positive");
+                Console.WriteLine($"Value of i: {i}");
             }
-            else
-            {
-                Console.WriteLine("Negative");
-            }
-
-
         }
 
     }
