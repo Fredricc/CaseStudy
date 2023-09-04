@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp2
+﻿using System.Xml.Linq;
+
+namespace ConsoleApp2
 {
     internal class Program
     {
@@ -96,10 +98,17 @@
             //        total += 2;
             //    }
 
-            int x = 10;
-            int y = 3;
-            int result = x / y;
-            Console.WriteLine(result);
+            int number = -5;
+
+            if (number >= 0)
+            {
+                Console.WriteLine("Zero or positive");
+            }
+            else
+            {
+                Console.WriteLine("Negative");
+            }
+
 
         }
 
