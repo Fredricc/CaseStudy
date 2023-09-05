@@ -98,11 +98,36 @@ namespace ConsoleApp2
             //        total += 2;
             //    }
 
-            for (int i = 1; i <= 10; i++)
-            {
-                Console.WriteLine($"Value of i: {i}");
-            }
-        }
 
+            //for (int i = 1; i < 5; i++)
+            //{
+            //    if (i == 3)
+            //    {
+            //        break;
+            //    }
+            //    Console.WriteLine(i);
+            //}
+
+            //int num = 1;
+
+            //while (num <= 10)
+            //{
+            //    if (num == 3)
+            //    {
+            //        break;
+            //    }
+            //    Console.WriteLine(num);
+            //    num++;
+            //}
+
+
+            string msg = Concat("Finishing ", "the last module");
+            Console.WriteLine(msg);
+        }
+        static string Concat(string x, string y)
+        {
+            string res = ("x" + "y");
+            return res;
+        }
     }
-}
+    }
