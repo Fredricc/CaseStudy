@@ -1,22 +1,49 @@
-﻿using System.Xml.Linq;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
-namespace ConsoleApp2
+namespace SoloLearn
 {
-    class Person
-    {
-        int age;
-        string name;
-        public void SayHi()
-        {
-            Console.WriteLine("Hi");
-        }
-    }
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Person p1 = new Person();
-            p1.SayHi();
+            string postText = Console.ReadLine();
+
+            Post post = new Post();
+            post.Text = postText;
+            post.ShowPost();
+
         }
     }
+
+    class Post
+    {
+        private string text;
+
+        //write a constructor here
+        public  Post()
+        {
+            Console.WriteLine("New post");
+        }
+
+
+    public void ShowPost()
+    {
+        Console.WriteLine(text);
     }
+
+    //write a property for member text
+    public string Text
+    {
+        set { text = value; }
+        get { return text; }
+    }
+
+}
+
+
+}
