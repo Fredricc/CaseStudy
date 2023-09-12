@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,18 +10,34 @@ namespace SoloLearn
     {
         static void Main(string[] args)
         {
-            int[,] num = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-            int[,,,] arr;
+            //int day1Winner = Convert.ToInt32(Console.ReadLine());
+            //int day2Winner = Convert.ToInt32(Console.ReadLine());
+            //int day3Winner = Convert.ToInt32(Console.ReadLine());
 
-            //your code goes here
-            for (int k = 0; k < 3; k++)
+
+
+            string[][] olympiad = new string[][]
             {
-                for (int j = 0; j < 3; j++)
-                {
-                    Console.Write(num[k, j] + " ");
-                }
-                Console.WriteLine();
-            }
+                //day 1 - 5 participants
+                new string[] { "Jill Yan", "Bridgette Ramona", "Sree Sanda", "Jareth Charlene", "Carl Soner" },
+                //day 2 - 7 participants
+                new string[] { "Anna Hel", "Mariette Vedrana", "Fran Mayur", "Drake Hilmar", "Nikolay Brooks", "Eliana Vlatko", "Villem Mario" },
+                //day 3 - 4 participants
+                new string[] { "Hieremias Zavia", "Ziya Ollie", "Christoffel Casper", "Kristian Dana", }
+
+            };
+            //your code goes here
+            //string x = olympiad[0][day1Winner - 1];
+            //string y = olympiad[1][day2Winner -1];
+            //string z = olympiad[2][day3Winner - 1];
+
+                int[,,] a = new int[2, 3, 4];
+
+            Console.Write(a.Rank);
+
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
+            //Console.WriteLine(z);
 
         }
     }
