@@ -4,30 +4,40 @@
     {
         static void Main(string[] args)
         {
-            class MathClass
-        {
-            public const int ONE = 1;
-        }
-        static void Main(string[] args)
-        {
-            Console.Write(MathClass.ONE);
-        }
-        //string password = Console.ReadLine();
-        //char[] notAllowedSymbols = { '!', '#', '$', '%', '&', '(', ')', '*', ',', '+', '-' };
 
-        ////your code goes here
-        //for (int i = 0; i < notAllowedSymbols.Length; i++)
-        //{
-        //    if (password.Contains(notAllowedSymbols[i]))
-        //    {
-        //        Console.WriteLine("Invalid");
-        //        break;
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine("ok");
-        //    }
-        //}
+            //string password = Console.ReadLine();
+            //char[] notAllowedSymbols = { '!', '#', '$', '%', '&', '(', ')', '*', ',', '+', '-' };
+
+            ////your code goes here
+            //for (int i = 0; i < notAllowedSymbols.Length; i++)
+            //{
+            //    if (password.Contains(notAllowedSymbols[i]))
+            //    {
+            //        Console.WriteLine("Invalid");
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("ok");
+            //    }
+            //}
+
+            class Clients
+        {
+            private string[] names = new string[10];
+
+            public string this[int index]
+            {
+                get
+                {
+                    return names[index];
+                }
+                set
+                {
+                    names[index] = value;
+                }
+            }
+        }
 
         //string s = "SoloLearn is awesome";
 
